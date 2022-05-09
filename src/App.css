@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  color: #e2e8f0;
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: #94a3b8;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 36px;
+  color: #cbd5e1;
+  margin-top: 36px;
+}
+
+h4 {
+  margin: 0px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #cbd5e1;
+  margin-top: 56px;
+}
+
+.description {
+  color: #94a3b8;
+  margin: 8px 0px 12px 0px;
+  text-align: left;
+}
+
+.query-container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.description pre {
+  display: inline-block;
+  font-weight: 800;
+  font-family: Fira Code, monospace;
+  background: #334155;
+  padding: 0px 4px;
+  border-radius: 4px;
+  margin: 4px 0px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
