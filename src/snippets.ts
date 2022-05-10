@@ -24,3 +24,28 @@ export const third = `
   "value": "{{identifier}}"
 }
 `.trim();
+
+export const fourth = `
+{"type": "values", "measurement_type": "interface"}
+`.trim();
+
+export const fifth = `
+get circuit.type between ($START, $END) by circuit.name from interface where node like ".+"
+`.trim();
+
+export const sixthCopy = `
+{
+  "type": "query", 
+  "query": "get circuit.name, circuit.description between($START, $END) by circuit.name from interface where circuit.type like  \\"^$circuit_types$\\"", 
+  "text": "{{circuit.name}} -- {{circuit.description}}", 
+  "value": "{{circuit.name}}"
+}`.trim();
+
+export const sixth = `
+{
+  "type": "query", 
+  "query": "get circuit.name, circuit.description between($START, $END) by circuit.name
+            from interface where circuit.type like  \\"^$circuit_types$\\"", 
+  "text": "{{circuit.name}} -- {{circuit.description}}", 
+  "value": "{{circuit.name}}"
+}`.trim();
