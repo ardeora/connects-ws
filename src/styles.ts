@@ -20,7 +20,7 @@ export const Pre = styled.pre`
   &::selection, &::-moz-selection {
     background: pink;
   }
-  
+  overflow: hidden  ;
 `;
 
 export const Line = styled.div`
